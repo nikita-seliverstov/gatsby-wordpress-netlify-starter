@@ -5,8 +5,6 @@ const slash = require(`slash`)
 const webpackLodashPlugin = require('lodash-webpack-plugin')
 
 const DEPLOY_ENV  = process.env.DEPLOY_ENV || 'lbn_published_production';
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
-
 
 
 /**
